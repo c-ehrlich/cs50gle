@@ -1,0 +1,2 @@
+[] the main content of the google home page should shift vertically on resizing same as on the real google site
+  [] this might involve flex-grow, flex-shrink, and flex-basis, as well as maybe items stuck to the flex-start or flex-end?
