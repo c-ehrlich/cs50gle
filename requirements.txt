@@ -1,7 +1,13 @@
-[] The advanced search page should have all the layout elements of the "real" version
+[x] The advanced search page should have all the layout elements of the "real" version
+[x] The stuff in the advanced page header should be aligned correctly
+  [x] vertically
+  [x] horizontally
+[x] The advanced search page should visually resemble the real google page
+  [x] The "find pages with..." and "To do this in the search box" labels should be in the right font.
+  [x] The grid should be left-aligned with a bit of padding, like on the real page
 
-[] The image search page should have the word "Images" under the cs50gle logo
-[] The image search page should work (ie redirect to a google image search)
+[x] The image search page should have the word "Images" under the cs50gle logo
+[x] The image search page should work (ie redirect to a google image search)
 
 [x] the main content of the google home page should shift vertically on resizing same as on the real google site
   [x] this might involve flex-grow, flex-shrink, and flex-basis, as well as maybe items stuck to the flex-start or flex-end?

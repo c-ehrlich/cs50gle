@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="styles.css">
-        <title>Search</title>
+        <title>CS50gle Advanced Search</title>
     </head>
     <body>
         <div id="header">
@@ -13,17 +13,73 @@
                 <a href="images.html" class="header-item">Images</a>
             </div>
         </div>
-        <div id="page-content">
-            <div id="logo-container">
+        <div id="page-content-advanced">
+            <div class="section-header">
+                <h1 class="section-header-text">Advanced Search</h1>
             </div>
             <form action="https://google.com/search" id="search-form">
-                <div id="search-bar-div">
-                    <img src="img/search.png" alt="magnifying glass" id="search-mag-glass">
-                    <input type="text" name="q" id="search-bar" autofocus>
+                <div class="advanced-search-row">
+                    <div class="asr-left">
+                        <p id="as-column-name-l">Find pages with...</p>
+                    </div>
+                    <div class="asr-middle">
+                    </div>
+                    <div class="asr-right">
+                        <p id="as-column-name-r">To do this in the search box...</p>
+                    </div>
                 </div>
-                <div id="search-button-row">
-                    <input type="submit" name="btnK" class="search-button" value="Google Search">
-                    <input type="submit" name="btnI" class="search-button" value="I'm Feeling Lucky" formaction="https://google.com/search?&btnI=1">
+                <div class="advanced-search-row">
+                    <div class="asr-left">
+                        <label for="as_q" class="advanced-label">all these words:</label>
+                    </div>
+                    <div class="asr-middle">
+                        <input name="as_q" id="as_q" type="text" class="advanced-input"> 
+                    </div>
+                    <div class="asr-right">
+                        Type the important words:
+                        <span>"tri-colour rat terrier"</span>
+                    </div>
+                </div>
+                <div class="advanced-search-row">
+                    <div class="asr-left">
+                        <label for="as_epq" class="advanced-label">this exact word or phrase:</label>
+                    </div>
+                    <div class="asr-middle">
+                        <input name="as_epq" id="as_epq" type="text" class="advanced-input"> 
+                    </div>
+                    <div class="asr-right">
+                        Put exact words in quotes: 
+                        <span>"rat terrier"</span>
+                    </div>
+                </div>
+                <div class="advanced-search-row">
+                    <div class="asr-left">
+                        <label for="as_oq" class="advanced-label">any of these words:</label>
+                    </div>
+                    <div class="asr-middle">
+                        <input name="as_oq" id="as_oq" type="text" class="advanced-input"> 
+                    </div>
+                    <div class="asr-right">
+                        Type <span>OR</span> between all the words you want:
+                        <span>miniature OR standard</span>
+                    </div>
+                </div>
+                <div class="advanced-search-row">
+                    <div class="asr-left">
+                        <label for="as_eq" class="advanced-label">none of these words:</label>
+                    </div>
+                    <div class="asr-middle">
+                        <input name="as_eq" id="as_eq" type="text" class="advanced-input"> 
+                    </div>
+                    <div class="asr-right">
+                        Put a minus sign just before words that you don't want:
+                        <span>-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div class="advanced-search-row">
+                    <div class="asr-middle" id="asr-button-container">
+                        <input type="submit" name="btnK" class="search-button advanced-search-button" value="Advanced Search">
+                    </div>
                 </div>
             </form>
         </div>
