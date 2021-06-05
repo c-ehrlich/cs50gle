@@ -57,6 +57,14 @@ body,
     max-width: 270px;
 }
 
+#images-text {
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    font-family: arial;
+    color: #4285f4;
+}
+
 #search-form {
     display: flex;
     flex-direction: column;

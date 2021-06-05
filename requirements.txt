@@ -1,4 +1,9 @@
-[] the main content of the google home page should shift vertically on resizing same as on the real google site
-  [] this might involve flex-grow, flex-shrink, and flex-basis, as well as maybe items stuck to the flex-start or flex-end?
+[] The advanced search page should have all the layout elements of the "real" version
+
+[] The image search page should have the word "Images" under the cs50gle logo
+[] The image search page should work (ie redirect to a google image search)
+
+[x] the main content of the google home page should shift vertically on resizing same as on the real google site
+  [x] this might involve flex-grow, flex-shrink, and flex-basis, as well as maybe items stuck to the flex-start or flex-end?
 
   https://cs50.harvard.edu/web/2020/projects/0/search/
