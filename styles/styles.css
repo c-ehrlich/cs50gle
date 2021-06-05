@@ -41,6 +41,7 @@ body {
     font-size: 14px;
     font-family: arial, sans-serif;
     text-decoration: none;    
+    color: black;
     padding: 16px;
 }
 .header-item:hover,
