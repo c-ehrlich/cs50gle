@@ -57,6 +57,10 @@ body,
     max-width: 270px;
 }
 
+#logo-img-header {
+    max-width: 100px;
+}
+
 #images-text {
     position: absolute;
     bottom: 0;
