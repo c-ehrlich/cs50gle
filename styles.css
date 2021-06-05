@@ -63,13 +63,27 @@ body,
     align-items: center;
 }
 
+#search-bar-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-mag-glass {
+    position: absolute;
+    margin-left: 12px;
+    width: 32px;
+    height: 32px;
+}
+
 #search-bar {
     width: 584px;
-    padding: 16px 16px 16px 32px;
+    padding: 16px 16px 16px 48px;
     margin: 24px 0 24px 0;
     border: 1px solid lightgrey;
     border-radius: 100px;
     outline: none;
+    font-size: 16px;
     /* webkit-box-sizing: border-box; */
 }
 #search-bar:hover {
